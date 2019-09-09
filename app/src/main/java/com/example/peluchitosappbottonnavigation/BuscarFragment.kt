@@ -27,6 +27,8 @@ class BuscarFragment : Fragment() {
             for(i in peluche){
                 if(i.nombre == view.nombre2.text.toString()){
                     pelucheBuscar.add(i)
+                    Toast.makeText(view.context, "Busqueda exitosa", Toast.LENGTH_SHORT).show()
+                    break
                 }else {
                     Toast.makeText(view.context, "No hay peluche con ese nombre", Toast.LENGTH_SHORT).show()
                 }

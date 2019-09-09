@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AgregarFragment">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/agregar"
+                android:text="@string/agregar"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/identificador"
+                android:hint="@string/identificador"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre"
+                android:hint="@string/nombre"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cantidad"
+                android:hint="@string/cantidad"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:layout_marginTop="10dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/precio"
+                android:hint="@string/precio"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:layout_marginTop="10dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/b_agregar"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:text="@string/agregar"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PeluchitosAppBottonNavigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="agregar2">Agregar</string>
+    <string name="buscar2">Buscar</string>
+    <string name="eliminar2">Eliminar</string>
+    <string name="inventario2">Inventario</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_agregar">Agregar</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_eliminar">Elimnar</string>
+    <string name="menu_inventario">Inventario</string>
+    <string name="agregar">Agregar peluche</string>
+    <string name="identificador">ID</string>
+    <string name="nombre">Nombre</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio">Precio</string>
+    <string name="buscar">Buscar peluche</string>
+    <string name="nombre2">Nombre del peluche</string>
+    <string name="eliminar">Eliminar peluche</string>
+    <string name="inventario">Inventario</string>
+    <string name="identificador2">ID:</string>
+    <string name="nombre3">Nombre:</string>
+    <string name="cantidad2">Cantidad:</string>
+    <string name="precio2">Precio:</string>
+    <string name="peluche">Peluche</string>
+</resources>

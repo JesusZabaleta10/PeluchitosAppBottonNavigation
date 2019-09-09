@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/agregar"
+            android:icon="@drawable/agregar"
+            android:title="@string/agregar2"/>
+
+    <item
+            android:id="@+id/buscar"
+            android:icon="@drawable/buscar"
+            android:title="@string/buscar2"/>
+
+    <item
+            android:id="@+id/eliminar"
+            android:icon="@drawable/eliminar"
+            android:title="@string/eliminar2"/>
+
+    <item
+            android:id="@+id/inventario"
+            android:icon="@drawable/inventario"
+            android:title="@string/inventario2"/>
+
+</menu>
